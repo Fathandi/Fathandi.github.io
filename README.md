@@ -10,7 +10,7 @@ I'm currently learn about Frontend Development
 # 📊 GitHub Stats:
 ![](https://github-readme-stats-eight-theta.vercel.app/api?username=azharrizkiz&show_icons=true&theme=dark&include_all_commits=true&count_private=true&icon_color=FFFFFF&bg_color=000000)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=AzharRizkiZ&theme=highcontrast&fire=ffffff&ring=ffffff&border=ffffff&currStreakLabel=ffffff)<br/>
-![](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=azharrizkiz&layout=compact&langs_count=10&theme=dark&bg_color=000000)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Fathandi&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Fathandi&theme=radical&no-frame=false&no-bg=false&margin-w=4)
