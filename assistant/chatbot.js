@@ -547,7 +547,7 @@ let pertanyaanCount = 0;
 // Fungsi Alert Pembuka
 setTimeout(function () {
     Swal.fire({
-        html: '<h1><i class="uil uil-robot" style="font-size: 48px; color: #6e57e0;"></i> Al-Jazari</h1>' +
+        html: '<h1><i class="uil uil-robot" style="font-size: 48px; color: #6e57e0;"></i> Patren #1</h1>' +
             '<br>Tanyakan apapun tentang Fathih kepada saya, seperti pengalaman, keahlian, ataupun latar belakangnya!'
     });
 }, 2000); // 2000 milidetik
