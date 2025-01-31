@@ -481,21 +481,7 @@ h3 {
 .author-name {
   font-size: 0.875rem;
   color: #4b5563;
-}
-
-.read-more {
-  padding: 0.5rem 1rem;
-  background: var(--first-colorr);
-  color: var(--color-white);
-  border: none;
-  border-radius: 0.375rem;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.read-more:hover {
-  background: var(--first-color-hover);
-}
+}
 
 .project-box:hover.project-box::after,
 .contact-info:hover.contact-info::after {
