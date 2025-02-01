@@ -421,6 +421,7 @@ h3 {
     overflow: hidden;
     z-index: 1;
     position: relative;
+    transition: transform 0.1s ease;
   }
   
   .project-card:hover {
