@@ -414,16 +414,17 @@ h3 {
   
   .project-card {
     width: calc(33.333% - 20px);
-    max-width: 350px;
+    max-width: 400px;
     background: var(--color-white);
     border-radius: 20px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     overflow: hidden;
-    transition: transform 0.3s ease;
+    z-index: 1;
+    position: relative;
   }
   
   .project-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) !important;
   }
   
   .project-card-image {
@@ -443,21 +444,8 @@ h3 {
   }
   
   .project-card-description {
-    color: #777;
+    color: var(--text-color-second);
     margin-bottom: 15px;
-  }
-  
-  @media (max-width: 1100px) {
-    .project-card {
-      width: calc(50% - 20px);
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .project-card {
-      width: 100%;
-      max-width: 100%;
-    }
   }
 
 .author {
@@ -481,7 +469,7 @@ h3 {
 .author-name {
   font-size: 0.875rem;
   color: #4b5563;
-}
+}
 
 .project-box:hover.project-box::after,
 .contact-info:hover.contact-info::after {
@@ -1116,6 +1104,9 @@ footer {
   .project-box {
     width: 80%;
   }
+  .project-card {
+    width: 80%;
+  }
 }
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
@@ -1150,6 +1141,9 @@ footer {
     justify-content: center;
   }
   .project-box {
+    width: 100%;
+  }
+  .project-card {
     width: 100%;
   }
   .form-inputs {
