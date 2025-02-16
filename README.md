@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm currently learn about Frontend Development
+I'm Software Developer
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/apriandi.js_/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fathih-apriandi-5150b129a/) 
