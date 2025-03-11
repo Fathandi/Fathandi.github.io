@@ -71,6 +71,11 @@ sr.reveal(".project-card", { interval: 200 });
 /* -- HEADINGS -- */
 sr.reveal(".top-header", {});
 
+/* -- FOOTER -- */
+sr.reveal(".top-footer", { interval: 200 });
+sr.reveal(".middle-footer", { interval: 200 });
+sr.reveal(".footer-menu-container", { interval: 200 });
+
 /* ----- ## -- SCROLL REVEAL LEFT_RIGHT ANIMATION -- ## ----- */
 
 /* -- ABOUT INFO & CONTACT INFO -- */
@@ -94,6 +99,7 @@ const srRight = ScrollReveal({
 
 srRight.reveal(".skills-box", { delay: 100 });
 srRight.reveal(".form-control", { delay: 100 });
+srRight.reveal(".middle-footer", { delay: 100 });
 
 /* ----- CHANGE ACTIVE LINK ----- */
 
@@ -176,4 +182,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+document.getElementById('year').textContent = new Date().getFullYear();
 window.addEventListener("scroll", scrollActive);

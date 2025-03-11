@@ -578,32 +578,100 @@ footer {
   align-items: center;
   flex-direction: column;
   row-gap: 30px;
-  background: #f8f8f8;
+  background: var(--body-color);
   padding-block: 40px 60px;
 }
+
 .top-footer p {
   font-size: 25px;
   font-weight: 600;
+  color: var(--text-color-third);
 }
-.middle-footer .footer-menu {
+
+.middle-footer {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 10px;
 }
+
+.footer-section {
+  min-width: 150px;
+  margin: 0 10px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  position: relative;
+  padding-bottom: 8px;
+  font-weight: 600;
+  color: var(--first-color);
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section li {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: var(--text-color-second);
+  font-weight: 600;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  transition: transform 0.5s ease;
+}
+
+.footer-section a:hover {
+  color: var(--text-color-second);
+  opacity: 80%;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.bottom-footer {
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+  color: var(--text-color-second);
+}
+
+.bottom-footer a {
+  color: var(--first-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Mobile menu */
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .footer_menu_list {
   list-style: none;
 }
+
 .footer_menu_list a {
   text-decoration: none;
   color: var(--text-color-second);
   font-weight: 500;
   margin-inline: 20px;
+  transition: transform 0.5s ease;
 }
-.footer-social-icons {
-  display: flex;
-  gap: 30px;
-}
-.bottom-footer {
-  font-size: 14px;
-  margin-top: 10px;
+
+.footer_menu_list a:hover {
+  color: var(--first-color);
 }
 
 /**************************/
@@ -1110,6 +1178,12 @@ footer {
   }
   .project-card {
     width: 80%;
+  }
+  .middle-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
   }
 }
 
