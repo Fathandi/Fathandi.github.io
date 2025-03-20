@@ -9,9 +9,19 @@ function myMenuFunction() {
   }
 }
 
-/* ----- BLUE-BTN FUNCTION ----- */
+/* ----- BLUE BUTTON FUNCION ----- */
 function redirectToAssistant() {
-  window.open("./assistant/assistant.html", "_blank");
+  if (!document.getElementById("chatbotScript")) {
+    const script = document.createElement("script");
+    // <!-- ----- CHAT BOT JS LINK ----- -->
+    // <!-- Mengimpor file JavaScript untuk chatbot -->
+    script.src = "assistant/chatbot.js";
+    script.id = "chatbotScript";
+    document.body.appendChild(script);
+    console.log("Chatbot script loaded.");
+  } else {
+    console.log("Chatbot script already loaded.");
+  }
 }
 
 /* ----- DOWNLOAD CV FUNCION ----- */
@@ -66,7 +76,6 @@ sr.reveal(".featured-image", { delay: 300 });
 /* -- PROJECT BOX -- */
 sr.reveal(".project-box", { interval: 200 });
 sr.reveal(".project-card", { interval: 200 });
-
 
 /* -- HEADINGS -- */
 sr.reveal(".top-header", {});
@@ -182,5 +191,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById("year").textContent = new Date().getFullYear();
 window.addEventListener("scroll", scrollActive);
