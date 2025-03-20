@@ -24,10 +24,17 @@ function redirectToAssistant() {
   }
 }
 
-/* ----- DOWNLOAD CV FUNCION ----- */
+/* ----- DOWNLOAD CV FUNCTION ----- */
 function downloadCV() {
-  window.open(".cv/tempCV.txt", "_blank");
+    const cvPath = "cv/CV-Fathih-Apriandi.pdf"; 
+    const link = document.createElement("a"); 
+    link.href = cvPath;
+    link.download = "CV-Fathih-Apriandi.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 }
+
 
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
 window.onscroll = function () {
