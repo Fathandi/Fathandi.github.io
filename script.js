@@ -11,16 +11,17 @@ function myMenuFunction() {
 
 /* ----- BLUE BUTTON FUNCION ----- */
 function redirectToAssistant() {
-  if (!document.getElementById("chatbotScript")) {
-    const script = document.createElement("script");
-    // <!-- ----- CHAT BOT JS LINK ----- -->
-    // <!-- Mengimpor file JavaScript untuk chatbot -->
-    script.src = "assistant/chatbot.js";
-    script.id = "chatbotScript";
-    document.body.appendChild(script);
-    console.log("Chatbot script loaded.");
+  if (window.chatbase && typeof window.chatbase === 'function') {
+    window.chatbase('open');
   } else {
-    console.log("Chatbot script already loaded.");
+    const script = document.createElement("script");
+    script.src = "https://www.chatbase.co/embed.min.js";
+    script.id = "8IDTt-GomqevpRmDOhLPm";
+    script.domain = "www.chatbase.co";
+    script.onload = function() {
+      window.chatbase('open');
+    };
+    document.body.appendChild(script);
   }
 }
 
@@ -30,9 +31,19 @@ function downloadCV() {
     const link = document.createElement("a"); 
     link.href = cvPath;
     link.download = "CV-Fathih-Apriandi.pdf";
+    
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+    
+    Swal.fire({
+        title: 'Success!',
+        text: 'CV has been downloaded successfully!',
+        icon: 'success',
+        confirmButtonText: 'Great!',
+        timer: 3000,
+        timerProgressBar: true
+    });
 }
 
 
