@@ -666,7 +666,7 @@ footer {
   text-decoration: none;
   color: var(--text-color-second);
   font-weight: 500;
-  margin-inline: 10px;
+  margin-inline: 5px;
   transition: transform 0.5s ease;
 }
 
