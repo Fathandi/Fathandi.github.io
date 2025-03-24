@@ -12,16 +12,16 @@ const images = [
     desc: "Ekspresi Tanpa Kata",
   },
   {
-    url: "/api/placeholder/400/300",
+    url: "./image/ChartGeneratorCode_4-3.jpg",
     ratio: "ratio-4-3",
-    title: "Lautan Biru",
-    desc: "Tenang Dan Damai",
+    title: "Chart Generator Code",
+    desc: "Code for Data Visualization with Chart.js",
   },
   {
-    url: "/api/placeholder/800/450",
+    url: "./image/ChartGeneratorPreview_16-9.jpg",
     ratio: "ratio-16-9",
-    title: "Kota Malam",
-    desc: "Cahaya Tak Padam",
+    title: "Chart Generator Preview",
+    desc: "Preview of Data Visualization with Chart.js",
   },
   {
     url: "/api/placeholder/200/300",
@@ -48,10 +48,10 @@ const images = [
     desc: "Merah Menggoda Jiwa",
   },
   {
-    url: "/api/placeholder/800/450",
+    url: "./image/WatercressGrowthPreview_16-9.jpg",
     ratio: "ratio-16-9",
-    title: "Matahari Terbenam",
-    desc: "Pertanda Hari Berakhir",
+    title: "Grapichs Watercress Growth",
+    desc: "Made by Chart.js",
   },
   {
     url: "/api/placeholder/200/300",
@@ -84,16 +84,16 @@ const images = [
     desc: "Desain Masa Kini",
   },
   {
-    url: "/api/placeholder/800/450",
+    url: "./image/IntiNusantaraPreview_16-9.jpg",
     ratio: "ratio-16-9",
-    title: "Pemandangan Pegunungan",
-    desc: "Udara Sejuk Alami",
+    title: "PT. Inti Telecom Nusantara",
+    desc: "Company Profile Website",
   },
   {
-    url: "/api/placeholder/800/450",
+    url: "./image/IT2024Preview_16-9.jpg",
     ratio: "ratio-16-9",
-    title: "Jaja Cantik",
-    desc: "Cantik nya Maha Pencipta",
+    title: "Community Profile Website",
+    desc: "IT 2024 SMAN 7 Tangerang Website",
   },
   {
     url: "/api/placeholder/200/300",
@@ -106,12 +106,6 @@ const images = [
     ratio: "ratio-1-1",
     title: "Calista",
     desc: "Cantik nya Maha Pencipta",
-  },
-  {
-    url: "/api/placeholder/800/450",
-    ratio: "ratio-16-9",
-    title: "Rising Galleon",
-    desc: "Gokai Ranger",
   },
 ];
 
