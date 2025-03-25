@@ -1,9 +1,9 @@
 const images = [
   {
-    url: "/api/placeholder/500/500",
+    url: "./image/ProfileCardCode_1-1.jpg",
     ratio: "ratio-1-1",
-    title: "Keindahan Alam",
-    desc: "Panorama Gunung Indah",
+    title: "Creating Template",
+    desc: "Create Profile Card Template using React.tsx",
   },
   {
     url: "/api/placeholder/300/400",
@@ -36,10 +36,10 @@ const images = [
     desc: "Warna Memikat Hati",
   },
   {
-    url: "/api/placeholder/400/300",
+    url: "./image/NavBarDashboard_4-3.jpg",
     ratio: "ratio-4-3",
-    title: "Pantai Eksotis",
-    desc: "Suasana Yang Menenangkan",
+    title: "Creating Template",
+    desc: "Create Navigation Bar Template using React.tsx",
   },
   {
     url: "/api/placeholder/300/400",
