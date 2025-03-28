@@ -410,44 +410,44 @@ h3 {
   justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
-  }
-  
-  .project-card {
-    width: 30%;
-    max-width: 800px;
-    background: var(--color-white);
-    border-radius: 20px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    overflow: hidden;
-    z-index: 1;
-    position: relative;
-    transition: transform 0.1s ease;
-  }
-  
-  .project-card:hover {
-    transform: scale(1.05) !important;
-  }
-  
-  .project-card-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .project-card-content {
-    padding: 15px 20px;
-  }
-  
-  .project-card-title {
-    font-size: 18px;
-    color: var(--text-color-second);
-    margin-bottom: 10px;
-  }
-  
-  .project-card-description {
-    color: var(--text-color-second);
-    margin-bottom: 15px;
-  }
+}
+
+.project-card {
+  width: 30%;
+  max-width: 800px;
+  background: var(--color-white);
+  border-radius: 20px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+  transition: transform 0.1s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05) !important;
+}
+
+.project-card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card-content {
+  padding: 15px 20px;
+}
+
+.project-card-title {
+  font-size: 18px;
+  color: var(--text-color-second);
+  margin-bottom: 10px;
+}
+
+.project-card-description {
+  color: var(--text-color-second);
+  margin-bottom: 15px;
+}
 
 .author {
   display: flex;
@@ -471,9 +471,8 @@ h3 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 50%; 
+  border-radius: 50%;
 }
-
 
 .project-box:hover.project-box::after,
 .contact-info:hover.contact-info::after {
