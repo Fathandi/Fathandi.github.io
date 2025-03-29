@@ -1,7 +1,11 @@
+/* ================================================= */
 /* ----- POPPINS FONT Link ----- */
+/* ================================================= */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+/* ================================================= */
 /* ----- VARIABLES ----- */
+/* ================================================= */
 :root {
   --body-color: rgb(250, 250, 250);
   --color-white: rgb(255, 255, 255);
@@ -17,7 +21,9 @@
   --first-shadow-color: rgba(0, 0, 0, 0.1);
 }
 
+/* ================================================= */
 /* ----- BASE ----- */
+/* ================================================= */
 * {
   margin: 0;
   padding: 0;
@@ -25,12 +31,16 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* ================================================= */
 /* ----- SMOOTH SCROLL ----- */
+/* ================================================= */
 html {
   scroll-behavior: smooth;
 }
 
+/* ================================================= */
 /* ----- CHANGE THE SCROLL BAR DESIGN ----- */
+/* ================================================= */
 ::-webkit-scrollbar {
   width: 10px;
   border-radius: 25px;
@@ -46,9 +56,9 @@ html {
   background: #bbb;
 }
 
-/* ---##-- REUSABLE CSS --##--- */
-
+/* ================================================= */
 /* ----- GLOBAL BUTTON DESIGN ----- */
+/* ================================================= */
 .btn {
   font-weight: 500;
   padding: 12px 20px;
@@ -66,7 +76,9 @@ html {
   color: var(--color-white);
 }
 
+/* ================================================= */
 /* ----- GLOBAL ICONS DESIGN ----- */
+/* ================================================= */
 i {
   font-size: 16px;
 }
@@ -78,10 +90,12 @@ body {
 .container {
   width: 100%;
   position: relative;
-  overflow-x: hidden; /* not mandatory */
+  overflow-x: hidden;
 }
 
+/* ================================================= */
 /* ----- NAVIGATION BAR ----- */
+/* ================================================= */
 nav {
   position: fixed;
   display: flex;
@@ -149,12 +163,16 @@ nav {
   border-radius: 50%;
 }
 
+/* ================================================= */
 /* ----- WRAPPER DESIGN ----- */
+/* ================================================= */
 .wrapper {
   padding-inline: 10vw;
 }
 
+/* ================================================= */
 /* ----- FEATURED BOX ----- */
+/* ================================================= */
 .featured-box {
   position: relative;
   display: flex;
@@ -162,7 +180,9 @@ nav {
   min-height: 700px;
 }
 
+/* ================================================= */
 /* ----- FEATURED TEXT BOX ----- */
+/* ================================================= */
 .featured-text {
   position: relative;
   display: flex;
@@ -231,7 +251,9 @@ nav {
   color: inherit;
 }
 
+/* ================================================= */
 /* ----- FEATURED IMAGE BOX ----- */
+/* ================================================= */
 .featured-image {
   display: flex;
   justify-content: right;
@@ -276,7 +298,9 @@ nav {
   font-size: 20px;
 }
 
+/* ================================================= */
 /* ----- MAIN BOX ----- */
+/* ================================================= */
 .section {
   padding-block: 5em;
 }
@@ -291,7 +315,9 @@ nav {
   width: 50%;
 }
 
+/* ================================================= */
 /* -- ## --- RESUABLE CSS -- ## -- */
+/* ================================================= */
 .top-header {
   text-align: center;
   margin-bottom: 5em;
@@ -311,7 +337,9 @@ h3 {
   margin-bottom: 15px;
 }
 
+/* ================================================= */
 /* ----- ABOUT INFO ----- */
+/* ================================================= */
 .about-info {
   position: relative;
   display: flex;
@@ -342,7 +370,9 @@ h3 {
   background: var(--first-color-hover);
 }
 
+/* ================================================= */
 /* ----- ABOUT / SKILLS BOX ----- */
+/* ================================================= */
 .skills-box {
   margin: 10px;
 }
@@ -362,7 +392,9 @@ h3 {
   border-radius: 5px;
 }
 
+/* ================================================= */
 /* ----- PROJECTS BOX ----- */
+/* ================================================= */
 .project-container {
   display: flex;
   width: 100%;
@@ -403,7 +435,6 @@ h3 {
   transition: 0.4s;
   z-index: 1;
 }
-
 .project-cards-container {
   display: flex;
   width: 100%;
@@ -411,7 +442,6 @@ h3 {
   gap: 20px;
   flex-wrap: wrap;
 }
-
 .project-card {
   width: 30%;
   max-width: 800px;
@@ -423,50 +453,41 @@ h3 {
   position: relative;
   transition: transform 0.1s ease;
 }
-
 .project-card:hover {
   transform: scale(1.05) !important;
 }
-
 .project-card-image {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
-
 .project-card-content {
   padding: 15px 20px;
 }
-
 .project-card-title {
   font-size: 18px;
   color: var(--text-color-second);
   margin-bottom: 10px;
 }
-
 .project-card-description {
   color: var(--text-color-second);
   margin-bottom: 15px;
 }
-
 .author {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-
 .author-avatar {
   width: 2rem;
   height: 2rem;
   overflow: hidden;
 }
-
 .author-name a {
   font-size: 0.875rem;
   color: var(--first-color);
   text-decoration: none;
 }
-
 .author-avatar img {
   width: 100%;
   height: 100%;
@@ -485,7 +506,9 @@ h3 {
   z-index: 2;
 }
 
+/* ================================================= */
 /* ----- CONTACT BOX ----- */
+/* ================================================= */
 .contact-info {
   position: relative;
   display: flex;
@@ -524,7 +547,9 @@ h3 {
   z-index: 2;
 }
 
+/* ================================================= */
 /* ----- CONTACT FORM ----- */
+/* ================================================= */
 .form-control {
   display: flex;
   flex-direction: column;
@@ -570,7 +595,9 @@ textarea {
   rotate: -45deg;
 }
 
+/* ================================================= */
 /* ----- FOOTER BOX ----- */
+/* ================================================= */
 footer {
   display: flex;
   justify-content: center;
@@ -650,7 +677,9 @@ footer {
   font-weight: 500;
 }
 
+/* ================================================= */
 /* Mobile menu */
+/* ================================================= */
 .footer-menu {
   display: flex;
   flex-wrap: wrap;
@@ -673,419 +702,9 @@ footer {
   color: var(--first-color);
 }
 
-/**************************/
-/* GOOGLE DEVELOPER ICON STYLE */
-
-:root {
-  --color-red: #ea4335;
-  --color-blue: #4285f4;
-  --color-yellow: #fbbc05;
-  --color-green: #34a853;
-}
-
-.containerload {
-  position: relative;
-  display: flex;
-  width: 100%;
-  justify-content: left;
-  gap: 10px;
-  margin-top: -30px;
-}
-
-.wrapper-loader {
-  width: 450px;
-  height: 225px;
-  display: flex;
-  align-items: left;
-  justify-content: left;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.loader {
-  position: relative;
-  width: 225px;
-  height: 150px;
-}
-
-.dot {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  border-radius: 9999px;
-}
-
-.dot1 {
-  top: 55px;
-  background-color: var(--color-blue);
-  transform-origin: 20px center;
-  animation: dsc-dot1 6s infinite ease-in-out;
-  z-index: 2;
-}
-
-.dot2 {
-  left: 62.5px;
-  top: 55px;
-  background-color: var(--color-red);
-  animation: dsc-dot2 6s infinite ease-in-out;
-}
-
-.dot3 {
-  bottom: 0;
-  left: 62.5px;
-  background-color: var(--color-green);
-  animation: dsc-dot3 6s infinite ease-in-out;
-}
-
-.dot4 {
-  left: 62.5px;
-  background-color: var(--color-green);
-  animation: dsc-dot4 6s infinite ease-in-out;
-}
-
-.dot5 {
-  left: 62.5px;
-  top: 55px;
-  background-color: var(--color-green);
-  animation: dsc-dot5 6s infinite ease-in-out;
-}
-
-.dot6 {
-  left: 62.5px;
-  bottom: 0;
-  background-color: var(--color-yellow);
-  animation: dsc-dot6 6s infinite ease-in-out;
-}
-
-.dot7 {
-  top: 55px;
-  background-color: var(--color-red);
-  transform-origin: 20px center;
-  animation: dsc-dot7 6s infinite ease-in-out;
-  z-index: 1;
-}
-
-/* GOOGLE DEVELOPER ICON ANIMATION */
-
-@keyframes dsc-dot1 {
-  0%,
-  100% {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-  5%,
-  95% {
-    opacity: 1;
-    transform: scale(1);
-  }
-
-  25%,
-  75% {
-    width: 40px;
-  }
-
-  30%,
-  70% {
-    width: 100px;
-    transform: rotate(0deg);
-  }
-
-  35%,
-  65% {
-    transform: rotate(-30deg);
-  }
-
-  45%,
-  55% {
-    transform: rotate(30deg);
-  }
-
-  50% {
-    width: 100px;
-    transform: rotate(30deg);
-  }
-}
-
-@keyframes dsc-dot2 {
-  0%,
-  100% {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-  5%,
-  95% {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-  10%,
-  90% {
-    opacity: 1;
-    width: 40px;
-    transform: scale(1);
-  }
-
-  15%,
-  85% {
-    left: 62.5px;
-  }
-
-  20%,
-  80% {
-    width: 100px;
-    left: 125px;
-    transform: scale(1);
-    transform-origin: 80px center;
-  }
-
-  25%,
-  75% {
-    transform: scale(0);
-  }
-
-  30%,
-  70% {
-    transform: scale(0);
-    background-color: var(--color-red);
-  }
-
-  36%,
-  64% {
-    background-color: var(--color-yellow);
-  }
-
-  40%,
-  60% {
-    width: 100px;
-    left: 125px;
-    transform: scale(1);
-    transform: rotate(-30deg);
-  }
-
-  50% {
-    width: 100px;
-    left: 125px;
-    background-color: var(--color-yellow);
-    transform: scale(1);
-    transform: rotate(-30deg);
-    transform-origin: 80px center;
-  }
-}
-
-@keyframes dsc-dot3 {
-  0%,
-  100% {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-  10%,
-  90% {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-  15%,
-  85% {
-    opacity: 1;
-    transform: scale(1);
-    width: 40px;
-  }
-
-  20%,
-  80% {
-    width: 100px;
-    left: 62.5px;
-  }
-
-  25%,
-  75% {
-    width: 40px;
-    left: 122.5px;
-    transform: scale(1);
-  }
-
-  30%,
-  70% {
-    transform: scale(0);
-  }
-
-  50% {
-    transform: scale(0);
-  }
-}
-
-@keyframes dsc-dot4 {
-  0%,
-  100% {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-  15%,
-  85% {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-  20%,
-  80% {
-    opacity: 1;
-    transform: scale(1);
-    width: 40px;
-  }
-
-  25%,
-  75% {
-    width: 100px;
-    left: 62.5px;
-  }
-
-  30%,
-  70% {
-    width: 40px;
-    left: 122.5px;
-    transform: scale(1);
-  }
-
-  35%,
-  65% {
-    transform: scale(0);
-  }
-
-  50% {
-    transform: scale(0);
-  }
-}
-
-@keyframes dsc-dot5 {
-  0%,
-  100% {
-    opacity: 0;
-    transform: scale(0);
-    transform-origin: left center;
-  }
-
-  10%,
-  90% {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-  15%,
-  85% {
-    opacity: 1;
-    transform: scale(1);
-    width: 40px;
-    left: 62.5px;
-    transform-origin: left center;
-  }
-
-  20%,
-  80% {
-    width: 100px;
-    left: 125px;
-    transform-origin: 80px center;
-  }
-
-  30%,
-  70% {
-    transform: rotate(0deg);
-  }
-
-  35%,
-  65% {
-    transform: rotate(-30deg);
-  }
-
-  45%,
-  55% {
-    transform: rotate(30deg);
-  }
-
-  50% {
-    opacity: 1;
-    transform: scale(1);
-    transform: rotate(30deg);
-    transform-origin: 80px center;
-    left: 125px;
-    width: 100px;
-  }
-}
-
-@keyframes dsc-dot6 {
-  0%,
-  100% {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-  15%,
-  85% {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-  20%,
-  80% {
-    opacity: 1;
-    transform: scale(1);
-    width: 40px;
-  }
-
-  22.5%,
-  77.5% {
-    width: 100px;
-    left: 62.5px;
-  }
-
-  27.5%,
-  72.5% {
-    width: 40px;
-    left: 122.5px;
-    transform: scale(1);
-  }
-
-  32.5%,
-  67.5% {
-    transform: scale(0);
-  }
-
-  50% {
-    transform: scale(0);
-  }
-}
-
-@keyframes dsc-dot7 {
-  0%,
-  100% {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-  35%,
-  65% {
-    opacity: 1;
-    transform: scale(0);
-  }
-
-  36%,
-  64% {
-    transform: scale(1);
-    width: 100px;
-    transform: rotate(-30deg);
-  }
-
-  50% {
-    transform: scale(1);
-    width: 100px;
-    transform: rotate(-30deg);
-  }
-}
-
+/* ================================================= */
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
+/* ================================================= */
 @media only screen and (max-width: 1024px) {
   .featured-text {
     padding: 0;
@@ -1097,7 +716,9 @@ footer {
   }
 }
 
+/* ================================================= */
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
+/* ================================================= */
 @media only screen and (max-width: 900px) {
   .nav-button {
     display: none;
@@ -1186,8 +807,9 @@ footer {
   }
 }
 
+/* ================================================= */
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
-
+/* ================================================= */
 @media only screen and (max-width: 540px) {
   .featured-image {
     margin-top: 40px;
@@ -1228,406 +850,5 @@ footer {
   }
   .input-field {
     width: 100%;
-  }
-  .containerload {
-    position: relative;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    gap: 10px;
-    margin-top: -30px;
-  }
-
-  .wrapper-loader {
-    width: 450px;
-    height: 225px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    padding: 10px;
-  }
-
-  .loader {
-    position: relative;
-    width: 225px;
-    height: 150px;
-  }
-
-  .dot {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 9999px;
-  }
-
-  .dot1 {
-    top: 55px;
-    background-color: var(--color-blue);
-    transform-origin: 20px center;
-    animation: dsc-dot1 6s infinite ease-in-out;
-    z-index: 2;
-  }
-
-  .dot2 {
-    left: 62.5px;
-    top: 55px;
-    background-color: var(--color-red);
-    animation: dsc-dot2 6s infinite ease-in-out;
-  }
-
-  .dot3 {
-    bottom: 0;
-    left: 62.5px;
-    background-color: var(--color-green);
-    animation: dsc-dot3 6s infinite ease-in-out;
-  }
-
-  .dot4 {
-    left: 62.5px;
-    background-color: var(--color-green);
-    animation: dsc-dot4 6s infinite ease-in-out;
-  }
-
-  .dot5 {
-    left: 62.5px;
-    top: 55px;
-    background-color: var(--color-green);
-    animation: dsc-dot5 6s infinite ease-in-out;
-  }
-
-  .dot6 {
-    left: 62.5px;
-    bottom: 0;
-    background-color: var(--color-yellow);
-    animation: dsc-dot6 6s infinite ease-in-out;
-  }
-
-  .dot7 {
-    top: 55px;
-    background-color: var(--color-red);
-    transform-origin: 20px center;
-    animation: dsc-dot7 6s infinite ease-in-out;
-    z-index: 1;
-  }
-
-  /* GOOGLE DEVELOPER ICON ANIMATION */
-
-  @keyframes dsc-dot1 {
-    0%,
-    100% {
-      opacity: 0;
-      transform: scale(0);
-    }
-
-    5%,
-    95% {
-      opacity: 1;
-      transform: scale(1);
-    }
-
-    25%,
-    75% {
-      width: 40px;
-    }
-
-    30%,
-    70% {
-      width: 100px;
-      transform: rotate(0deg);
-    }
-
-    35%,
-    65% {
-      transform: rotate(-30deg);
-    }
-
-    45%,
-    55% {
-      transform: rotate(30deg);
-    }
-
-    50% {
-      width: 100px;
-      transform: rotate(30deg);
-    }
-  }
-
-  @keyframes dsc-dot2 {
-    0%,
-    100% {
-      opacity: 0;
-      transform: scale(0);
-    }
-
-    5%,
-    95% {
-      opacity: 0;
-      transform: scale(0);
-    }
-
-    10%,
-    90% {
-      opacity: 1;
-      width: 40px;
-      transform: scale(1);
-    }
-
-    15%,
-    85% {
-      left: 62.5px;
-    }
-
-    20%,
-    80% {
-      width: 100px;
-      left: 125px;
-      transform: scale(1);
-      transform-origin: 80px center;
-    }
-
-    25%,
-    75% {
-      transform: scale(0);
-    }
-
-    30%,
-    70% {
-      transform: scale(0);
-      background-color: var(--color-red);
-    }
-
-    36%,
-    64% {
-      background-color: var(--color-yellow);
-    }
-
-    40%,
-    60% {
-      width: 100px;
-      left: 125px;
-      transform: scale(1);
-      transform: rotate(-30deg);
-    }
-
-    50% {
-      width: 100px;
-      left: 125px;
-      background-color: var(--color-yellow);
-      transform: scale(1);
-      transform: rotate(-30deg);
-      transform-origin: 80px center;
-    }
-  }
-
-  @keyframes dsc-dot3 {
-    0%,
-    100% {
-      opacity: 0;
-      transform: scale(0);
-    }
-
-    10%,
-    90% {
-      opacity: 0;
-      transform: scale(0);
-    }
-
-    15%,
-    85% {
-      opacity: 1;
-      transform: scale(1);
-      width: 40px;
-    }
-
-    20%,
-    80% {
-      width: 100px;
-      left: 62.5px;
-    }
-
-    25%,
-    75% {
-      width: 40px;
-      left: 122.5px;
-      transform: scale(1);
-    }
-
-    30%,
-    70% {
-      transform: scale(0);
-    }
-
-    50% {
-      transform: scale(0);
-    }
-  }
-
-  @keyframes dsc-dot4 {
-    0%,
-    100% {
-      opacity: 0;
-      transform: scale(0);
-    }
-
-    15%,
-    85% {
-      opacity: 0;
-      transform: scale(0);
-    }
-
-    20%,
-    80% {
-      opacity: 1;
-      transform: scale(1);
-      width: 40px;
-    }
-
-    25%,
-    75% {
-      width: 100px;
-      left: 62.5px;
-    }
-
-    30%,
-    70% {
-      width: 40px;
-      left: 122.5px;
-      transform: scale(1);
-    }
-
-    35%,
-    65% {
-      transform: scale(0);
-    }
-
-    50% {
-      transform: scale(0);
-    }
-  }
-
-  @keyframes dsc-dot5 {
-    0%,
-    100% {
-      opacity: 0;
-      transform: scale(0);
-      transform-origin: left center;
-    }
-
-    10%,
-    90% {
-      opacity: 0;
-      transform: scale(0);
-    }
-
-    15%,
-    85% {
-      opacity: 1;
-      transform: scale(1);
-      width: 40px;
-      left: 62.5px;
-      transform-origin: left center;
-    }
-
-    20%,
-    80% {
-      width: 100px;
-      left: 125px;
-      transform-origin: 80px center;
-    }
-
-    30%,
-    70% {
-      transform: rotate(0deg);
-    }
-
-    35%,
-    65% {
-      transform: rotate(-30deg);
-    }
-
-    45%,
-    55% {
-      transform: rotate(30deg);
-    }
-
-    50% {
-      opacity: 1;
-      transform: scale(1);
-      transform: rotate(30deg);
-      transform-origin: 80px center;
-      left: 125px;
-      width: 100px;
-    }
-  }
-
-  @keyframes dsc-dot6 {
-    0%,
-    100% {
-      opacity: 0;
-      transform: scale(0);
-    }
-
-    15%,
-    85% {
-      opacity: 0;
-      transform: scale(0);
-    }
-
-    20%,
-    80% {
-      opacity: 1;
-      transform: scale(1);
-      width: 40px;
-    }
-
-    22.5%,
-    77.5% {
-      width: 100px;
-      left: 62.5px;
-    }
-
-    27.5%,
-    72.5% {
-      width: 40px;
-      left: 122.5px;
-      transform: scale(1);
-    }
-
-    32.5%,
-    67.5% {
-      transform: scale(0);
-    }
-
-    50% {
-      transform: scale(0);
-    }
-  }
-
-  @keyframes dsc-dot7 {
-    0%,
-    100% {
-      opacity: 0;
-      transform: scale(0);
-    }
-
-    35%,
-    65% {
-      opacity: 1;
-      transform: scale(0);
-    }
-
-    36%,
-    64% {
-      transform: scale(1);
-      width: 100px;
-      transform: rotate(-30deg);
-    }
-
-    50% {
-      transform: scale(1);
-      width: 100px;
-      transform: rotate(-30deg);
-    }
   }
 }
