@@ -46,6 +46,11 @@ function downloadCV() {
     });
 }
 
+/* ----- PORTFOLIO FUNCTION ----- */
+function portfolio() {
+  window.location.href = "portfolio.html";
+}
+
 
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
 window.onscroll = function () {

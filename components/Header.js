@@ -26,8 +26,8 @@ const Navbar = () => {
       </ul>
     </div>
     <div class="nav-button">
-      <button class="btn" onclick="downloadCV()">
-        Download CV <i class="uil uil-file-alt"></i>
+      <button class="btn" onclick="portfolio()">
+        Recent Projects <i class="uil uil-file-alt"></i>
       </button>
     </div>
     <div class="nav-menu-btn">

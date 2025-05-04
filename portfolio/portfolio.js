@@ -1,6 +1,6 @@
 const images = [
   {
-    url: "./image/ProfileCardCode_1-1.jpg",
+    url: "portfolio/image/ProfileCardCode_1-1.jpg",
     ratio: "ratio-1-1",
     title: "Creating Template",
     desc: "Create Profile Card Template using React.tsx",
@@ -12,13 +12,13 @@ const images = [
     desc: "Ekspresi Tanpa Kata",
   },
   {
-    url: "./image/ChartGeneratorCode_4-3.jpg",
+    url: "portfolio/image/ChartGeneratorCode_4-3.jpg",
     ratio: "ratio-4-3",
     title: "Chart Generator Code",
     desc: "Code for Data Visualization with Chart.js",
   },
   {
-    url: "./image/ChartGeneratorPreview_16-9.jpg",
+    url: "portfolio/image/ChartGeneratorPreview_16-9.jpg",
     ratio: "ratio-16-9",
     title: "Chart Generator Preview",
     desc: "Preview of Data Visualization with Chart.js",
@@ -36,7 +36,7 @@ const images = [
     desc: "Warna Memikat Hati",
   },
   {
-    url: "./image/NavBarDashboard_4-3.jpg",
+    url: "portfolio/image/NavBarDashboard_4-3.jpg",
     ratio: "ratio-4-3",
     title: "Creating Template",
     desc: "Create Navigation Bar Template using React.tsx",
@@ -48,7 +48,7 @@ const images = [
     desc: "Merah Menggoda Jiwa",
   },
   {
-    url: "./image/WatercressGrowthPreview_16-9.jpg",
+    url: "portfolio/image/WatercressGrowthPreview_16-9.jpg",
     ratio: "ratio-16-9",
     title: "Grapichs Watercress Growth",
     desc: "Made by Chart.js",
@@ -84,13 +84,13 @@ const images = [
     desc: "Desain Masa Kini",
   },
   {
-    url: "./image/IntiNusantaraPreview_16-9.jpg",
+    url: "portfolio/image/IntiNusantaraPreview_16-9.jpg",
     ratio: "ratio-16-9",
     title: "PT. Inti Telecom Nusantara",
     desc: "Company Profile Website",
   },
   {
-    url: "./image/IT2024Preview_16-9.jpg",
+    url: "portfolio/image/IT2024Preview_16-9.jpg",
     ratio: "ratio-16-9",
     title: "Community Profile Website",
     desc: "IT 2024 SMAN 7 Tangerang Website",
