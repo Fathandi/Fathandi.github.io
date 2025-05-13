@@ -6,10 +6,10 @@ const images = [
     desc: "Create Profile Card Template using React.tsx",
   },
   {
-    url: "/api/placeholder/300/400",
+    url: "portfolio/image/PortfolioBodyCode_3-4.jpg",
     ratio: "ratio-3-4",
-    title: "Potret Wajah",
-    desc: "Ekspresi Tanpa Kata",
+    title: "Clean Code for My Portfolio",
+    desc: "Using JavaScript Function as JavaScript Components",
   },
   {
     url: "portfolio/image/ChartGeneratorCode_4-3.jpg",
@@ -44,8 +44,8 @@ const images = [
   {
     url: "/api/placeholder/300/400",
     ratio: "ratio-3-4",
-    title: "Bunga Mawar",
-    desc: "Merah Menggoda Jiwa",
+    title: "Clean Code for My Portfolio Website",
+    desc: "Using JavaScript Function as JavaScript Components",
   },
   {
     url: "portfolio/image/WatercressGrowthPreview_16-9.jpg",
