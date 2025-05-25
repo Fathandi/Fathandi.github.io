@@ -78,10 +78,10 @@ const images = [
     desc: "Mineral Untuk Tubuh",
   },
   {
-    url: "/api/placeholder/400/300",
+    url: "portfolio/image/AnalystGoldProfit_4-3.jpeg",
     ratio: "ratio-4-3",
-    title: "Arsitektur Modern",
-    desc: "Desain Masa Kini",
+    title: "Analyst Gold Market",
+    desc: "If Claim The Bounty for Panen Feature",
   },
   {
     url: "portfolio/image/IntiNusantaraPreview_16-9.jpg",
