@@ -19,6 +19,7 @@ const Footer = () => {
             <h3>My Business</h3>
             <ul>
               <li><a href="#">PT. Inti Telecom Nusantara</a></li>
+              <li><a href="#">GokaiTech</a></li>
             </ul>
           </div>
 
