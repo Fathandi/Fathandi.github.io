@@ -104,7 +104,7 @@ const images = [
   {
     url: "/api/placeholder/500/500",
     ratio: "ratio-1-1",
-    title: "Calista",
+    title: "Emerald",
     desc: "Cantik nya Maha Pencipta",
   },
 ];
