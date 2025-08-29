@@ -24,58 +24,22 @@ const images = [
     desc: "Preview of Data Visualization with Chart.js",
   },
   {
-    url: "/api/placeholder/200/300",
-    ratio: "ratio-2-3",
-    title: "Portrait Mode",
-    desc: "Keindahan Yang Vertikal",
-  },
-  {
-    url: "/api/placeholder/500/500",
-    ratio: "ratio-1-1",
-    title: "Kupu-kupu Langka",
-    desc: "Warna Memikat Hati",
-  },
-  {
-    url: "portfolio/image/NavBarDashboard_4-3.jpg",
-    ratio: "ratio-4-3",
-    title: "Creating Template",
-    desc: "Create Navigation Bar Template using React.tsx",
-  },
-  {
-    url: "/api/placeholder/300/400",
+    url: "portfolio/image/FiberOptic_1-4-5.png",
     ratio: "ratio-3-4",
-    title: "Clean Code for My Portfolio Website",
-    desc: "Using JavaScript Function as JavaScript Components",
+    title: "Fiber Optic",
+    desc: "Instalasi Fiber Optic Rumah Pompa Bukit Duri",
+  },
+  {
+    url: "portfolio/image/FiberOptic_2-4-5.png",
+    ratio: "ratio-3-4",
+    title: "Fiber Optic",
+    desc: "Instalasi Fiber Optic Rumah Pompa Bukit Duri",
   },
   {
     url: "portfolio/image/WatercressGrowthPreview_16-9.jpg",
     ratio: "ratio-16-9",
     title: "Grapichs Watercress Growth",
     desc: "Made by Chart.js",
-  },
-  {
-    url: "/api/placeholder/200/300",
-    ratio: "ratio-2-3",
-    title: "Monumen Bersejarah",
-    desc: "Peninggalan Masa Lalu",
-  },
-  {
-    url: "/api/placeholder/500/500",
-    ratio: "ratio-1-1",
-    title: "Kucing Peliharaan",
-    desc: "Teman Setia Rumah",
-  },
-  {
-    url: "/api/placeholder/300/400",
-    ratio: "ratio-3-4",
-    title: "Buah Segar",
-    desc: "Vitamin Untuk Tubuh",
-  },
-  {
-    url: "/api/placeholder/300/400",
-    ratio: "ratio-3-4",
-    title: "Sayur Segar",
-    desc: "Mineral Untuk Tubuh",
   },
   {
     url: "portfolio/image/AnalystGoldProfit_4-3.jpeg",
@@ -96,17 +60,35 @@ const images = [
     desc: "IT 2024 SMAN 7 Tangerang Website",
   },
   {
-    url: "/api/placeholder/200/300",
-    ratio: "ratio-2-3",
-    title: "Burung Elang",
-    desc: "Terbang Tinggi Menjulang",
+    url: "portfolio/image/DoctorShare_1-16-9.png",
+    ratio: "ratio-16-9",
+    title: "Non-Profit Organization Website",
+    desc: "Order and Delivery Tracking",
   },
   {
-    url: "/api/placeholder/500/500",
-    ratio: "ratio-1-1",
-    title: "Emerald",
-    desc: "Cantik nya Maha Pencipta",
+    url: "portfolio/image/DoctorShare_3-4-3.png",
+    ratio: "ratio-4-3",
+    title: "Non-Profit Organization Website",
+    desc: "Monitoring Partner Relationship",
   },
+  {
+    url: "portfolio/image/DoctorShare_2-16-9.png",
+    ratio: "ratio-16-9",
+    title: "Non-Profit Organization Website",
+    desc: "Monitoring Partner Relationship",
+  },
+  {
+    url: "portfolio/image/FiberOptic_3-4-5.png",
+    ratio: "ratio-3-4",
+    title: "Fiber Optic",
+    desc: "Instalasi Fiber Optic Rumah Pompa Bukit Duri",
+  },
+  {
+    url: "portfolio/image/GokaiTech_1-1.png",
+    ratio: "ratio-1-1",
+    title: "My Digital Creative Agency Website",
+    desc: "Coming Soon",
+  }
 ];
 
 function getAnimationClass(index, totalItems) {
