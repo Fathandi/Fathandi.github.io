@@ -27,7 +27,7 @@ const Home = () => {
         <!-- Buttons -->
         <div class="featured-text-btn">
           <button class="btn blue-btn" onclick="portfolio()">
-            My Recent Projects1<i class="uil uil-robot"></i>
+            My Recent Projects<i class="uil uil-robot"></i>
           </button>
           <button class="btn" onclick="downloadCV()">
             Download CV<i class="uil uil-file-alt"></i>
