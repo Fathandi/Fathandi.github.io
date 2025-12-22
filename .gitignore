@@ -1,0 +1,26 @@
+# Auto-commit files
+auto-commit.log
+auto-commit.php
+auto-commit.sh
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*.backup
