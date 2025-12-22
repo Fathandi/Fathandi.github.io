@@ -1,27 +1,13 @@
-#!/bin/bash
-
-# Path ke repo
-REPO_PATH="/home/gree1924/fathandi.github.io"
-JS_FILE="commit.js"
-
-cd $REPO_PATH
-
-# Timestamp
-TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
-UNIX_TIME=$(date '+%s')
-
-# Buat/update ommit.js
-cat > $JS_FILE << EOF
 /**
  * Ommit.js - Auto-generated commit tracker
- * Last update: $TIMESTAMP
- * Unix timestamp: $UNIX_TIME
+ * Last update: 2025-12-22 09:45:02
+ * Unix timestamp: 1766371502
  */
 
 const ommit = {
-    version: '$UNIX_TIME',
-    lastUpdate: '$TIMESTAMP',
-    commitCount: $UNIX_TIME,
+    version: '1766371502',
+    lastUpdate: '2025-12-22 09:45:02',
+    commitCount: 1766371502,
     status: 'active',
     
     getInfo() {
@@ -48,11 +34,3 @@ if (typeof window !== 'undefined') {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = ommit;
 }
-EOF
-
-# Git commands
-git add .
-git commit -m "Auto update ommit.js: $TIMESTAMP"
-git push origin main
-
-echo "Auto commit completed at $TIMESTAMP"
