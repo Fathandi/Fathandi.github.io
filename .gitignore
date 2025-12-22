@@ -1,7 +1,6 @@
 # Auto-commit files
 auto-commit.log
 auto-commit.php
-auto-commit.sh
 
 # Log files
 *.log
