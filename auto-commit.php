@@ -41,7 +41,7 @@ class AutoCommit {
     
     // Jalankan git command
     private function runGitCommand($command) {
-        $fullCommand = "cd {$this->config['repo_path']} && $command 2>&1";
+        $fullCommand = "cd {$this->config['repo_path']} && /usr/bin/git $command 2>&1";
         exec($fullCommand, $output, $returnVar);
         return [
             'output' => implode("\n", $output),
