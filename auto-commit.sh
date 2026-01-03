@@ -51,6 +51,7 @@ if (typeof module !== 'undefined' && module.exports) {
 EOF
 
 # Git commands
+git pull origin main
 git add .
 git commit -m "Auto update ommit.js: $TIMESTAMP"
 git push origin main
